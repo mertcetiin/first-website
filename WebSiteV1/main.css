@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+#header {
+    background-color: black;
+}
+
+#header img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px brown;
+}
+
+#header a {
+    float: right;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+}
+
+#header a:hover {
+    background-color: darkblue;
+    padding: 3px;
+}
+
+#Home-Page img {
+    display: flex;
+    width: 100%;
+    height: 870px;
+
+}
+
+#Home-Page h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -650px;
+    font-size: 60px;
+    user-select: none;
+}
+
+input {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 550px;
+    margin-top: 10px;
+    margin-left: 40%;
+    padding: 10px;
+    font-size: 30px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(197, 222, 252);
+    color: white;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input:hover {
+    background-color: darkkhaki;
+}
+
+#About {
+    margin: 0 20px;
+    background-color: darkslateblue;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 4px 2px black;
+}
+
+#Products {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#Products img {
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 2px black;
+}
+
+#Products p {
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: rgb(0, 0, 32);
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 4px 2px black;
+}
+
+#communication {
+    background-color: rgb(74, 74, 75);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 2px 4px 2px black;
+}
+
+#communication a {
+    font-size: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    color: white;
+}
+
+@media screen and (max-width:780px) {
+    #header {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #Products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* @media screen and (max-width: 780px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 2fr);
+
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .contact-section-header h2 {
+        font-size: 2rem;
+    }
+} */
